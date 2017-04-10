@@ -1,7 +1,7 @@
 import jieba
 import jieba.posseg as pseg
 
-# jieba.load_userdict("userdict.txt")
+jieba.load_userdict("userdict.txt")
 
 def jiebaCut(senStr):
     return jieba.cut(senStr)
